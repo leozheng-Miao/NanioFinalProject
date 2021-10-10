@@ -1,0 +1,286 @@
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0;
+}
+.head {
+  margin: 0 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #192400;
+}
+.head .left{
+  width: auto;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+  color:white;
+  float: left;
+}
+.head .middle{
+  width: auto;
+  float: left;
+}
+.head .right{
+  width: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.head .middle ul{
+  margin-top: 4%;
+  width: auto;
+  list-style: none;
+  margin-left: 10px;
+}
+.head .middle li.active{
+  background-color: white;
+  border-radius: 5px;
+}
+.head .middle li{
+  height: 37px;
+  margin-left: 40px;
+  float: left;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+.head .middle li a{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 7px;
+}
+.head a{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+}
+.head .right ul{
+  width: auto;
+  list-style: none;
+  margin-left: 250px;
+}
+.head .right li{
+  padding-top: 10px;
+  float: left;
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: 300;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul.parent li a:hover {
+  color: #a1c18c;
+}
+.head .search{
+  float: left;
+  margin-left: 1%;
+  padding-top: 1%;
+
+}
+.title{
+  color: red;
+  margin-top: 7%;
+  margin-left: 13%;
+  font-weight: 600;
+}
+
+.middle li a:hover {
+  color: #a1c18c;
+}
+.title{
+  color: red;
+  margin-top: 7%;
+  margin-left: 13%;
+  font-weight: 600;
+}
+.middle li a:hover {
+  color: #a1c18c;
+}
+.head .search{
+  float: left;
+  margin-left: 1%;
+  padding-top: 1%;
+
+}
+.art{
+  margin-top: 5%;
+  width: 80%;
+  height: 550px;
+  margin-left: 10%;
+}
+.art .img{
+  width: 60%;
+  height:80%;
+  float: left;
+}
+.art .img img{
+  width: 100%;
+  height:100%;
+}
+.art .icon{
+  color: red;
+  font-weight: bold;
+  margin-top: 2%;
+  float: left;
+  margin-left: 4%;
+  width: 35%;
+  height: 40px;
+}
+.art .icon .img2{
+  float: right;
+  margin-left: 27%;
+}
+.art .icon .img2 img{
+  margin-left: 50%;
+  cursor: pointer;
+}
+.art .title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 4%;
+  float: left;
+  width: 36%;
+  font-size: 34px;
+  font-weight: bold;
+
+}
+.art .word{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 4%;
+  float: left;
+  width: 35%;
+  margin-top: 2%;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  color:black;
+}
+.navigation{
+  height:50px;
+  width: 80%;
+  margin-left: 10%;
+  background-color:whitesmoke;
+}
+ul.par li{
+  display: block;
+  float: left;
+  position: relative;
+  padding: 0px 60px;
+  line-height: 50px;
+}
+ul.par li .lines {
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: red;
+  position: absolute;
+  left: 50%;
+
+  transition: all ease-in-out .6s;
+  -o-transition: all ease-in-out .6s;
+  -ms-transition: all ease-in-out .6s;
+  -moz-transition: all ease-in-out .6s;
+  -webkit-transition: all ease-in-out .6s;
+}
+ul.par li:hover .lines, .navigation li.current .lines {
+  color: red;
+  width: 100%;
+  left: 0;
+}
+.Card{
+  float: left;
+  margin-top: 3%;
+  margin-left: 10%;
+  height:500px;
+  width: 80%;
+}
+.Card .Card2{
+  float: left;
+  width: 38%;
+  margin-left: 8%;
+  height: 95%;
+}
+.Card .Card2 img{
+  width: 100%;
+  height: 100%;
+}
+.Card .Card3{
+  float: left;
+  width: 38%;
+  margin-left: 5%;
+  height: 95%;
+}
+.Card .Card3 img{
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tab{
+  overflow:hidden;
+  height: 300px;
+  width: 85%;
+  margin-left: 8%;
+}
+.tab .tab-content .tabct{
+  margin-top: 1%;
+  float: left;
+  height: 75%;
+  width: 100%;
+}
+.tab .tab-content .tabct img{
+  width: 40%;
+  margin-left: 6%;
+  float: left;
+  cursor: pointer;
+}
+.tab .tab-title ul{
+  margin-left: 40%;
+  margin-top: 3%;
+  overflow: hidden;
+}
+.tab .tab-title ul.parent2 li {
+  font-size: 2px;
+  margin-top: 6%;
+  display: block;
+  float: left;
+  position: relative;
+  background-color:gray;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 5px;
+  cursor: pointer;
+}
+.tab .tab-title ul.parent2 li a {
+  display: block;
+  color: black;
+}
+.tab .tab-title ul.parent2 li.current {
+  position: relative;
+  background-color: black;
+  margin-left: 20px;
+}
+.bottom{
+  margin-top: 4%;
+  width: 100%;
+  height: auto;
+}
+.bottom img{
+  width: 100%;
+  height: 350px;
+  cursor: pointer;
+}
+.bottom-word{
+  overflow: hidden;
+  width:50%;
+  height: 30px;
+  margin-left: 13%;
+  font-size: 20px;
+  font-weight: bold;
+}

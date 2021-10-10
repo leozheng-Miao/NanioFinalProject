@@ -1,0 +1,77 @@
+.weather{
+	position: relative;
+	width:80%;
+	height: 80%;;
+	margin:20px auto;
+}
+
+.w_form{	
+	width:100%;  
+}
+.w_logo{
+	width:100%;
+	height:130px;
+	text-align: center;
+}
+.w_logo img{	
+	width:150px;
+	height:130px;	
+	margin:0 auto;	
+}
+.form_g{
+	width:100%;
+	height:35px;
+	margin: 0 auto;
+}
+.form_g .mytext{	
+	width:70%;
+	height:25px;
+	float:left;
+	outline: none;
+	font-size:25px;
+}
+.form_g .input_bu{	
+	width:28%;
+	height:30px;
+	float:left;	
+}
+.hotCity{
+	float:left;   
+	 margin-top:5px;
+}
+.hotCity a{	
+	text-decoration: none;
+	color: gray;
+}
+.hotCity a:hover{
+	color: dodgerblue;
+}
+.weather_list{	
+	list-style: none;
+	position: absolute;
+	margin-top:40px;
+	font-size:12px;
+}
+
+.weather_list li{
+	width:130px;
+	height:100px;
+	float:left;
+	margin-right:20px;
+	border-right: 1px solid darkgray;
+	text-align: center;
+}
+.weather_list  li  .iconfont{	
+	font-size:30px;
+	color: darkorange;	
+}
+
+.weather_list  li .temp span{
+	margin: 20px 5px;
+	color: darkorange;
+}
+.weather_list  li  .info_date{
+	
+	margin: 20px 5px;
+	color: black;
+}

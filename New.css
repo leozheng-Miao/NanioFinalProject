@@ -1,0 +1,241 @@
+body{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0;
+}
+.head {
+  margin: 0 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #192400;
+}
+.head .left{
+  width: auto;
+  margin-left: 40px;
+  padding-left: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  font-weight: 300;
+  text-align: center;
+  color:white;
+  float: left;
+}
+.head .middle{
+  width: auto;
+  float: left;
+}
+.head .right{
+  width: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.head .middle ul{
+  margin-top: 4%;
+  width: auto;
+  list-style: none;
+  margin-left: 10px;
+}
+.head .middle li.active{
+
+  background-color: white;
+  border-radius: 5px;
+}
+.head .middle li{
+  height: 37px;
+  margin-left: 40px;
+  float: left;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+.head .middle li a{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 7px;
+}
+.head a{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+}
+.head .right ul{
+  width: auto;
+  list-style: none;
+  margin-left: 250px;
+}
+.head .right li{
+  padding-top: 10px;
+  float: left;
+  font-size: 20px;
+  margin-left: 60px;
+  font-weight: 300;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul.parent li a:hover {
+  color: #a1c18c;
+}
+.head .search{
+  float: left;
+  margin-left: 1%;
+  padding-top: 1%;
+
+}
+.title{
+  color: red;
+  margin-top: 7%;
+  margin-left: 13%;
+  font-weight: 600;
+}
+
+.middle li a:hover {
+  color: #a1c18c;
+}
+
+.img{
+  width: 85%;
+  height: 600px;
+  margin-left: 10%;
+  float: left;
+  margin-top: 3%;
+}
+.img .img1{
+  width: 48%;
+  height: 85%;
+  float: left;
+}
+.img .img1 img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.img .img2{
+  margin-left: 3%;
+  width: 17%;
+  height: 47%;
+  float: left;
+}
+.img .img2 img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.img .img3{
+  width: 17%;
+  height: 47%;
+  float: left;
+  margin-left: 2%;
+}
+.img .img3 img{
+  width:100%;
+  height: 100%;
+  cursor: pointer;
+}
+.img .img4{
+  margin-left: 3%;
+  margin-top: 2%;
+  float: left;
+  width: 36%;
+  height: 34%;
+}
+.img .img4 img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.img5 .word{
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  height: 23px;
+  width: 300px;
+  text-align: left;
+  overflow: hidden;
+
+}
+.img5{
+  margin-left: 10%;
+  height: 350px;
+  width: 50%;
+  margin-right: 0;
+  float: left;
+}
+.img5 .img7{
+  margin-top: 1%;
+  float: left;
+  width: 45%;
+}
+.img5 .img6{
+  float: left;
+  width: 45%;
+  margin-top: 1%;
+  margin-left: 4%;
+}
+.img5 .img7 img{
+  width: 100%;
+}
+.img5 .img6 omg{
+  width: 100%;
+}
+.tab{
+  width: 23%;
+  height: 550px;
+  float:left;
+  margin-left: 2%;
+}
+.tab .tab-title ul{
+
+
+}
+.tab .tab-title ul.parent2 li a {
+  display: block;
+  color: red;
+  float: left;
+}
+.tab .tab-title ul.parent2 li{
+  display: block;
+  font-size: 16px;
+  float: left;
+  position: relative;
+  margin-left: 22px;
+  border-radius: 10px;
+  height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tab .tab-title ul.parent2 li a {
+  margin-bottom: 5%;
+  display: block;
+  color: gray;
+}
+.tab .tab-title ul.parent2 li a.current{
+  position: relative;
+  color: red;
+}
+.tab .tab-content .tabct{
+  margin-top: 1%;
+  float: left;
+  height: 75%;
+  width: 100%;
+}
+.tab .tab-content .tabct img{
+  width: 80%;
+  margin-left: 15%;
+  float: left;
+  margin-top: 2%;
+  cursor: pointer;
+}
+.bottom{
+
+  width: 100%;
+  height: auto;
+}
+.bottom img{
+  width: 100%;
+  height: 350px;
+  cursor: pointer;
+}

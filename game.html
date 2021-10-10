@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!-- crtl +  shift  + /  注释  -->
+		<!--  引入样式文件-->
+		<link rel="stylesheet" href="css/game.css" />
+	</head>
+
+	<body>
+		<!-- 游戏中  外层背景  背景精灵  sprite-->
+		<div class="head">
+			<div class="left"><a href="Index.html">WE</a>
+			</div>
+			<div class="middle">
+				<ul>
+					<li><a href="New.html">News</a></li>
+					<li ><a href="Article.html">Articles</a></li>
+					<li><a href="Donate.html">Donation</a></li>
+					<li class="active" ><a href="GameHP.html"  style="color: black;width: 110px">Relevance game</a></li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul class="parent">
+					<li>
+						<a href="Sign.html">Sign up</a>
+					</li>
+					<li class="current">
+						<a href="Login.html">Log in</a>
+					</li>
+				</ul>
+			</div>
+			<div class="search">
+				<a href="Search.html"><img src="Icon.png" style="width: 70px; height: 70px;"></a>
+			</div>
+		</div>
+
+		<div id="box">
+			<!-- 第二部分  html代码-->
+			<div id="section1">
+				<!--钟表-->
+				<div id="clock">
+					<p id="count">0</p>
+				</div>
+				<!-- 直升机-->
+				<img src="img/直升机.gif" id="helicopter" />
+
+				<!-- 分数框-->
+				<div id="scoreboard">
+					<p id="score">0</p>
+				</div>
+
+			</div>
+			
+			 <!--  第二部分-->
+			
+			<div id = "section2">
+				<!--魔理沙-->
+				<img src="img/魔理沙_待机.png" id ="marisa" />
+				<!--小蔡同学-->
+				<img src="img/mushroom1.png" id = "cai" />
+				
+				<!-- 垃圾桶的结构-->
+				<div  id = "bin">
+					<!--  crtl + sift  +  r   向下复制-->
+						<img src="img/湿垃圾桶.png" />
+						<img src="img/干垃圾桶.png" />
+					<img src="img/可回收垃圾桶.png" />				
+					<img src="img/有害垃圾桶.png" />					
+				</div>						
+			</div>	
+			
+			
+			<!-- 第三部分  选择垃圾按钮的部分-->
+			<div id="section3">
+				<!-- 可回收垃圾的点击按钮-->
+				<img onclick="clickbutton(this,1)" src="img/厨余垃圾.png"/>
+				<img onclick="clickbutton(this,2)" src="img/干垃圾.png"/>
+				<img onclick="clickbutton(this,3)" src="img/可回收垃圾.png"/>			
+				<img onclick="clickbutton(this,4)" src="img/有害垃圾.png"/>						
+			</div>
+			
+			<!--小女孩抛出的垃圾 -->
+			<div  id = "hSec">				
+				<img src="img/可回收垃圾/啤酒瓶.png" class="rubbish_recycle_rub" id="rub_R" />
+			</div>	
+			
+
+		</div>
+		<!-- 1  先引入  jquery.js-->
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<!-- 引入index.js-->
+		<script type="text/javascript" src="js/game.js"></script>
+		     
+        
+	</body>
+
+</html>

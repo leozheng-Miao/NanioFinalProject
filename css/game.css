@@ -1,0 +1,261 @@
+
+/*  crtl  + shift   + 注释*/
+
+*{
+	/*  去掉 浏览器的默认间隙*/
+	margin:0;
+	padding:0;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin: 0;
+}
+.head {
+	margin: 0 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #192400;
+}
+.head .left{
+	width: auto;
+	margin-left: 40px;
+	padding-left: 10px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 70px;
+	font-weight: 300;
+	text-align: center;
+	color:white;
+	float: left;
+}
+.head .middle{
+	width: auto;
+	float: left;
+}
+.head .right{
+	width: auto;
+	float: left;
+	overflow: hidden;
+}
+
+.head .middle ul{
+	margin-top: 3.5%;
+	width: auto;
+	list-style: none;
+	margin-left: 10px;
+
+}
+.head .middle li.active{
+	background-color: white;
+	border-radius: 5px;
+}
+.head .middle li{
+	height: 30px;
+	margin-left: 40px;
+	float: left;
+	font-size: 25px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+.head a{
+	color:white;
+	text-decoration: none;
+	text-align: center;
+
+}
+.head .right ul{
+	margin-top: 3.8%;
+	width: auto;
+	list-style: none;
+	margin-left: 250px;
+}
+.head .right li{
+	padding-top: 10px;
+	float: left;
+	font-size: 20px;
+	margin-left: 60px;
+	font-weight: 300;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul.parent li a:hover {
+	color: #a1c18c;
+}
+.head .search{
+	float: left;
+	margin-left: 1%;
+	padding-top: 1%;
+
+}
+.title{
+	color: red;
+	margin-top: 7%;
+	margin-left: 13%;
+	font-weight: 600;
+}
+
+.middle li a:hover {
+	color: #a1c18c;
+}
+/*  给窗口加背景颜色*/
+body{
+	background-color: cornflowerblue;	
+}
+
+/*  #  代表的id 选择器*/
+#box{
+	background: url(../img/背景1.png);	
+	width:1200px;
+	height:800px;
+	/* 背景全都出来*/
+	background-size:100% 100%;
+	position: relative; /* 相对定位*/
+	/* margin  参数1  控制上下的  参数2  左右  auto 居中的意思*/
+	margin:100px auto;
+	
+}
+
+/*section1 的样式*/
+#section1{
+	
+	width:100%;
+	height:30%;
+	position: absolute;
+	
+}
+
+/*   section1  里边的钟表的样式*/
+#clock{
+	position: absolute;	/*绝对定位*/
+	width:80px;
+	height:120px;	
+	background: url(../img/表.png);
+	background-size: 100% 100%;
+	top:0%;/*  距离上边的距离*/
+	left:32%;	/*距离左边的距离*/
+}
+
+ /*  钟表里的数字的样式*/
+#clock  #count{
+	font-size:30px;
+	color: purple;
+	text-align: center;/* 文字水平居中*/
+	line-height: 140px;/*通过行高 调节上下的距离*/  
+}
+
+/*直升机的样式*/
+#section1 #helicopter{
+	position: absolute;/* 没有定位  left  和  top是不生效的*/
+	width:120px;
+	height:120px;
+	left:45%;
+	top:7%;		
+}
+
+/* 分数框的样式*/
+#section1 #scoreboard{
+	position:absolute;
+	width:300px;
+	height:60px;
+	background:url(../img/分数.png);
+	background-size:100%  100%;
+	left:65%;
+	top:7%;	
+	
+}
+
+/*分数的样式*/
+#section1 #scoreboard  #score{
+	font-size:40px;
+	text-align: center;
+	line-height: 60px;/* 行高  设成和所在元素的范围 一样的高  就可以上下居中*/
+	/*首行缩进样式*/
+	text-indent: 150px;
+	
+}
+
+
+/*  第二部分*/
+#section2{
+	width:1200px;
+	height:320px;
+	position: absolute;
+	top:248px;
+}
+
+/*  调节魔理沙的样式*/
+#marisa{
+	
+	position: absolute;
+	width:12%;
+	left:8%;
+	top:72%;
+}
+
+/* 蔡同学的样式*/
+#cai{
+	
+	position: absolute;
+	width:15%;
+	left:30%;
+	top:77%;
+	
+}
+
+/*垃圾桶的样式*/
+
+#bin{	
+	position: relative;/*  相对定位  不破坏文档结构*/
+	top:87%;
+	left:60%;
+}
+
+/*  每一个垃圾桶之间的距离*/
+#bin img{
+	
+	margin-left:3%;
+	width:60px;
+}
+
+
+/*  第三部分 垃圾选择按钮 的样式*/
+
+#section3{
+	
+	width:1200px;
+	height:280px;
+	position: absolute;
+	top:78%;
+	left:480px;
+}
+
+/*  缩小一次每个按钮的样式*/
+#section3  img{
+	
+	width:150px;
+	height:50px;
+}
+
+
+/*  第四部分 处理隐藏部分的垃圾样式*/
+#hSec{
+	position: absolute;
+	width:16%;
+	height:16%;
+	top:60%;
+	
+}
+
+/*  啤酒瓶子的样式*/
+.rubbish_recycle_rub{
+	
+	width:80px;
+	height:80px;
+	position:absolute;
+	left:136px;
+	top:-16px;
+}
+
